@@ -157,6 +157,7 @@
     </Compile>
     <Compile Include="AcceptGetAttributeTester.cs" />
     <Compile Include="AcceptPostAttributeTester.cs" />
+    <Compile Include="ActionResults\Excel2003ResultTester.cs" />
     <Compile Include="ActionResults\PermanentRedirectResultTester.cs" />
     <Compile Include="ActionResults\PermanentRedirectToActionResultTester.cs" />
     <Compile Include="ActionResults\RedirectToRouteResultTester.cs" />
@@ -356,6 +357,10 @@
     <ProjectReference Include="..\MvcContrib.Castle\MvcContrib.Castle.csproj">
       <Project>{F3C74912-8FF8-4F79-8CA1-4697025FDF2D}</Project>
       <Name>MvcContrib.Castle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MVCContrib.Export\MVCContrib.Export.csproj">
+      <Project>{105273E7-5DBE-4AED-A0AE-C0E320C30DB8}</Project>
+      <Name>MVCContrib.Export</Name>
     </ProjectReference>
     <ProjectReference Include="..\MvcContrib.FluentHtml\MvcContrib.FluentHtml.csproj">
       <Project>{35AFBC04-8C09-42B7-A56A-EA404688A5B1}</Project>

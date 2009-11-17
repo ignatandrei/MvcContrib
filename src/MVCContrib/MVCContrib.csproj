@@ -87,6 +87,7 @@
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="ActionResults\ExcelResult.cs" />
     <Compile Include="ActionResults\PermanentRedirectResult.cs" />
     <Compile Include="ActionResults\PermanentRedirectToActionResult.cs" />
     <Compile Include="ActionResults\RedirectToRouteResult.cs" />
@@ -329,6 +330,12 @@
     <EmbeddedResource Include="UI\InputBuilder\Views\InputBuilders\DisplayParagraph.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MVCContrib.Export\MVCContrib.Export.csproj">
+      <Project>{105273E7-5DBE-4AED-A0AE-C0E320C30DB8}</Project>
+      <Name>MVCContrib.Export</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Configuration\" />
